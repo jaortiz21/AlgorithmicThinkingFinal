@@ -1,0 +1,7 @@
+This problem focuses on palindromic substrings and finding how many palindromes are within each substring of a particular string.
+
+1. This problem can be solved recursively by starting with a substring that is the full string given, then continually breaking the string down into a smaller and smaller substring until individual letters are being read.
+
+For example, this string "abc" would focus on the full string, then "ab" and finally "a", it every single character already counting as one palindrome, it would return three palindromes: "a", "b", "c".
+
+2. 
